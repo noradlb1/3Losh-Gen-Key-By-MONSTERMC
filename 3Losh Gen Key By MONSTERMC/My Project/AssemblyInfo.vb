@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("3Losh Gen Key By MONSTERMC")>
+<Assembly: AssemblyTitle("3Losh Gen Key v3 By MONSTERMC")>
 <Assembly: AssemblyDescription("Telegram:@MONSTERMC")>
 <Assembly: AssemblyCompany("Telegram:@MONSTERMC")>
-<Assembly: AssemblyProduct("3Losh Gen Key By MONSTERMC")>
-<Assembly: AssemblyCopyright("Copyright ©  2024")>
+<Assembly: AssemblyProduct("3Losh Gen Key v3 By MONSTERMC")>
+<Assembly: AssemblyCopyright("Copyright ©  2025")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

@@ -30,6 +30,8 @@ Partial Class Form1
         Me.RandomizedMethodButtonGenerate = New System.Windows.Forms.Button()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -94,11 +96,34 @@ Partial Class Form1
         Me.RadioButton2.Text = "RXRcode"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(109, 67)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(96, 17)
+        Me.RadioButton3.TabIndex = 7
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "3Losh First Rat"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(9, 165)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(88, 13)
+        Me.LinkLabel1.TabIndex = 8
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "@MONSTERMC"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(381, 158)
+        Me.ClientSize = New System.Drawing.Size(381, 184)
+        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.RandomizedMethodButtonGenerate)
@@ -108,7 +133,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = "3Losh Gen Key By MONSTERMC"
+        Me.Text = "3Losh Gen Key v3 By MONSTERMC"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -121,4 +146,6 @@ Partial Class Form1
     Friend WithEvents RandomizedMethodButtonGenerate As Button
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class
